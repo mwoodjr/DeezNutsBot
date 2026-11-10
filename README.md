@@ -1,4 +1,4 @@
-# Discord Bot Development & Infrastructure
+# DeezNutsBot
 
 An event-driven Discord bot built with JavaScript, discord.js, MongoDB, and process-based hybrid sharding. Originally developed as **DeezNutsBot**, it responds to keyword triggers and slash commands while recording user and server activity. The original humor remains in `utils/jokes.js`.
 
