@@ -1,0 +1,16 @@
+.git
+node_modules
+.env
+.env.*
+!.env.example
+config.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.log
+reports
+backups
+test
+docs

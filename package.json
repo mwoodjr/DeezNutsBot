@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-infrastructure",
+  "version": "2.7.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node index.js",
+    "register": "node deploy-commands.js",
+    "check": "node scripts/check-syntax.js",
+    "register:check": "node deploy-commands.js --dry-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Event-driven Discord bot with MongoDB persistence and process-based hybrid sharding.",
+  "dependencies": {
+    "discord-hybrid-sharding": "^2.2.3",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
